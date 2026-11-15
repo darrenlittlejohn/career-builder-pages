@@ -17,10 +17,19 @@ li { margin: 3px 0 5px; }
 ul { margin: 2px 0 10px; padding-left: 22px; }
 .kv strong { font-family: Arial, sans-serif; }
 @media print { body { margin: 0; font-size: 11.5px; } .back { display:none; } h1 { font-size: 22px; } h2, h3 { page-break-after: avoid; } }
+
+  nav { display: flex; gap: 20px; flex-wrap: wrap; padding: 12px 0; border-bottom: 1px solid #ddd; margin-bottom: 28px; font-family: Arial, sans-serif; }
+  nav a { color: #0a66c2; text-decoration: none; font-weight: bold; font-size: 14px; }
+  nav a:hover { text-decoration: underline; }
+  nav a.current { color: #222; }
 </style>
 </head>
 <body>
-<a class="back" href="./">&#8592; Back to Job Search</a>
+<nav>
+  <a href="./" >Home</a>
+  <a href="tracker.html">Application Tracker</a>
+  <a href="resume.html">Resume</a>
+</nav>
 <h3>DARREN LITTLEJOHN</h3>
 <p>DATA ANALYST / BUSINESS ANALYST / BI ANALYST</p>
 <p>SQL | Data Quality | Reporting | Tableau | Excel | Python</p>
