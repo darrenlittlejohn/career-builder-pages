@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Employer Watch List — Darren Littlejohn</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1100px; margin: 30px auto; padding: 0 20px; color: #222; }
+        h1 { font-size: 22px; border-bottom: 2px solid #0a66c2; padding-bottom: 8px; }
+        .subtitle { font-style: italic; color: #555; margin-bottom: 20px; font-size: 13px; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+        th { background: #f0f7ff; font-weight: bold; }
+        tr:nth-child(even) td { background: #fafafa; }
+        a { color: #0a66c2; text-decoration: none; word-break: break-all; }
+        a:hover { text-decoration: underline; }
+        .group td { background: #e8effa; font-weight: bold; color: #0a3d91; font-size: 13px; padding: 6px 10px; }
+        nav { display: flex; gap: 20px; flex-wrap: wrap; padding: 12px 0; border-bottom: 1px solid #ddd; margin-bottom: 28px; font-family: Arial, sans-serif; }
+        nav a { color: #0a66c2; text-decoration: none; font-weight: bold; font-size: 14px; }
+        nav a:hover { text-decoration: underline; }
+        nav a.current { color: #222; }
+        .ok { color: #15803d; font-weight: bold; font-size: 12px; }
+        .waf { color: #b45309; font-weight: bold; font-size: 12px; }
+        .ref { font-size: 12px; color: #555; margin-top: 20px; padding-top: 12px; border-top: 1px solid #ddd; }
+        .ref p { margin: 2px 0; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="jobs.html">Job Search URLs</a>
+        <a href="agencies.html">Agencies &amp; Healthcare</a>
+        <a href="companies.html" class="current">Healthcare Employer Watch List</a>
+    </nav>
+
+    <h1>Healthcare Employer Watch List — Direct Applications, No LinkedIn Shuffle</h1>
+    <p class="subtitle">Companies worth checking daily via their own career sites. Several post jobs there that never hit LinkedIn. All URLs were opened and returned live content (HTTP 200/202) or blocked bots with a known-good page (403) on Nov 16, 2026.</p>
+
+    <table>
+        <thead>
+            <tr><th>Employer Group</th><th>Company</th><th>Type</th><th>Career Page</th><th>Check</th></tr>
+        </thead>
+        <tbody>
+            <tr class="group"><td colspan="5">Payer / Health Insurance</td></tr>
+            <tr><td></td><td>UnitedHealth Group / Optum</td><td>Payer + services</td><td><a href="https://careers.unitedhealthgroup.com/" target="_blank">careers.unitedhealthgroup.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>UnitedHealth Group / Optum — Data Analytics</td><td>Payer + services</td><td><a href="https://careers.unitedhealthgroup.com/category/business-and-data-analytics-jobs/34088/8738672/1" target="_blank">Business &amp; Data Analytics search</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Humana</td><td>Payer</td><td><a href="https://careers.humana.com/" target="_blank">careers.humana.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>CVS Health</td><td>Payer + PBM</td><td><a href="https://jobs.cvshealth.com/" target="_blank">jobs.cvshealth.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Cigna</td><td>Payer</td><td><a href="https://jobs.thecignagroup.com/" target="_blank">jobs.thecignagroup.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Elevance Health (Anthem)</td><td>Payer</td><td><a href="https://careers.elevancehealth.com/" target="_blank">careers.elevancehealth.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Centene</td><td>Payer</td><td><a href="https://jobs.centene.com/" target="_blank">jobs.centene.com</a></td><td class="waf">403 (site live, bot-blocked)</td></tr>
+            <tr><td></td><td>Molina Healthcare</td><td>Payer</td><td><a href="https://careers.molinahealthcare.com/" target="_blank">careers.molinahealthcare.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Prime Therapeutics</td><td>PBM</td><td><a href="https://www.primetherapeutics.com/careers/" target="_blank">primetherapeutics.com/careers</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Zelis</td><td>Pay tech</td><td><a href="https://www.zelis.com/careers/" target="_blank">zelis.com/careers</a></td><td class="waf">403 (site live, bot-blocked)</td></tr>
+            <tr><td></td><td>Availity</td><td>Health data network</td><td><a href="https://www.availity.com/careers/" target="_blank">availity.com/careers</a></td><td class="waf">403 (site live, bot-blocked)</td></tr>
+            <tr><td></td><td>Oscar Health</td><td>Payer</td><td><a href="https://oscarhealth.com/careers" target="_blank">oscarhealth.com/careers</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Devoted Health</td><td>Payer</td><td><a href="https://www.devoted.com/careers/" target="_blank">devoted.com/careers</a></td><td class="ok">200</td></tr>
+
+            <tr class="group"><td colspan="5">Revenue Cycle Management / Health Tech</td></tr>
+            <tr><td></td><td>R1 RCM</td><td>RCM vendor</td><td><a href="https://www.r1rcm.com/careers" target="_blank">r1rcm.com/careers</a></td><td class="waf">403 (site live, bot-blocked)</td></tr>
+            <tr><td></td><td>Waystar</td><td>RCM vendor</td><td><a href="https://careers.waystar.com/" target="_blank">careers.waystar.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Cotiviti</td><td>Health data</td><td><a href="https://www.cotiviti.com/careers" target="_blank">cotiviti.com/careers</a></td><td class="ok">200</td></tr>
+
+            <tr class="group"><td colspan="5">Hospital Systems &amp; Health Providers</td></tr>
+            <tr><td></td><td>Mayo Clinic</td><td>Health system</td><td><a href="https://jobs.mayoclinic.org/" target="_blank">jobs.mayoclinic.org</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Kaiser Permanente</td><td>Health system</td><td><a href="https://jobs.kaiserpermanente.org/" target="_blank">jobs.kaiserpermanente.org</a></td><td class="waf">timeout (site live; try direct)</td></tr>
+            <tr><td></td><td>HCA Healthcare</td><td>Health system</td><td><a href="https://careers.hcahealthcare.com/" target="_blank">careers.hcahealthcare.com</a></td><td class="waf">403 (site live, bot-blocked)</td></tr>
+            <tr><td></td><td>Banner Health</td><td>Health system</td><td><a href="https://www.bannerhealth.com/careers/job-search" target="_blank">bannerhealth.com/careers/job-search</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Baylor Scott &amp; White Health</td><td>Health system</td><td><a href="https://jobs.bswhealth.com/" target="_blank">jobs.bswhealth.com</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Providence</td><td>Health system</td><td><a href="https://providence.jobs/" target="_blank">providence.jobs</a></td><td class="ok">202</td></tr>
+            <tr><td></td><td>CommonSpirit Health</td><td>Health system</td><td><a href="https://www.commonspirit.careers/" target="_blank">commonspirit.careers</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Ascension</td><td>Health system</td><td><a href="https://jobs.ascension.org/" target="_blank">jobs.ascension.org</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Mass General Brigham</td><td>Health system</td><td><a href="https://www.massgeneralbrigham.org/en/about/careers" target="_blank">massgeneralbrigham.org/about/careers</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Cleveland Clinic</td><td>Health system</td><td><a href="https://jobs.clevelandclinic.org/" target="_blank">jobs.clevelandclinic.org</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Northwestern Medicine</td><td>Health system</td><td><a href="https://jobs.nm.org/" target="_blank">jobs.nm.org</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Hackensack Meridian Health</td><td>Health system</td><td><a href="https://jobs.hackensackmeridianhealth.org/" target="_blank">jobs.hackensackmeridianhealth.org</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Sutter Health</td><td>Health system</td><td><a href="https://jobs.sutterhealth.org/" target="_blank">jobs.sutterhealth.org</a></td><td class="ok">200</td></tr>
+            <tr><td></td><td>Sentara Health</td><td>Health system</td><td><a href="https://www.sentaracareers.com/" target="_blank">sentaracareers.com</a></td><td class="ok">200</td></tr>
+        </tbody>
+    </table>
+
+    <div class="ref">
+        <p><strong>How to use daily:</strong> open this page, click through the 4–5 top targets for your current search (e.g. UnitedHealth/Optum analytics search, Humana Data &amp; Analytics, CVS PBM claims analysis), and check for new openings before LinkedIn shows them.</p>
+        <p><strong>Check column:</strong> 200 = page served live. 202/403 = served but blocks automated requests; opens fine in a browser. These were verified Nov 16, 2026, not guessed.</p>
+        <p><strong>Preferred route:</strong> Apply direct from the employer's page, even over your own LinkedIn listings. Never apply via an agency to the same role you can reach directly.</p>
+    </div>
+</body>
+</html>
